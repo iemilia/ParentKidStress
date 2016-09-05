@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@color/breathing">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="10dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/breath_instruction"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="10dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/breath_instruction2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="breath..."
+        android:textColor="#FFFFFF"
+        android:background="@color/breathing"
+        android:id="@+id/start"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:textColor="#FFFFFF"
+        android:background="@color/breathing"
+        android:id="@+id/stop"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp" />
+    <Chronometer
+        android:id="@+id/chronometer1"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Chronometer"
+        android:longClickable="false"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/counter"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"/>
+
+</LinearLayout><!-- From: file:/C:/Users/Emi/AndroidStudioProjects/HEROver1%20-%20Bluetooth_neclasificat/app/src/main/res/layout/breathing_guide.xml -->

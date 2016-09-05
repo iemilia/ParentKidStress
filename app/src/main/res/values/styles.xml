@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Transparent">#00000000</color>
+    <style name="CustomTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarTabTextStyle">@style/Widget.TabText</item>
+
+    </style>
+
+        <!-- the theme applied to the application or activity -->
+        <style name="CustomActionBarTheme"
+            parent="@android:style/Theme.Holo">
+            <item name="android:windowActionBarOverlay">true</item>
+        </style>
+    <!-- style for the tabs -->
+    <style name="MyActionBarTabStyle" >
+        <item name="android:background">@drawable/ab_transparen</item>
+        <item name="android:paddingLeft">32dp</item>
+        <item name="android:paddingRight">32dp</item>
+
+    </style>
+
+
+ </resources>

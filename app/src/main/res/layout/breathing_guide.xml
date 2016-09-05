@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@color/breathing"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanatoryicon"
+        android:src="@drawable/lung"
+        android:layout_weight="0.15" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="10dp"
+        android:textColor="#FFFFFF"
+        tools:text="Breath and relax with your kid"
+        android:id="@+id/breath_instruction"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        tools:text="breathbla bla"
+
+        android:textSize="10dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/breath_instruction2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:id="@+id/seconds"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:textColor="#FFFFFF"
+        android:background="@color/breathing"
+        android:id="@+id/stop"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:textColor="#FFFFFF"
+        android:background="@color/breathing"
+        android:id="@+id/start"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/counter"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"/>
+
+</LinearLayout>

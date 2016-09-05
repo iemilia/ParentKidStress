@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_settings.xml",
+        "source": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\src\\main\\res\\menu\\menu_settings.xml"
+    },
+    {
+        "merged": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_search.xml",
+        "source": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\src\\main\\res\\menu\\menu_search.xml"
+    },
+    {
+        "merged": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_my_questions.xml",
+        "source": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\src\\main\\res\\menu\\menu_my_questions.xml"
+    },
+    {
+        "merged": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_board_questions.xml",
+        "source": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\src\\main\\res\\menu\\menu_board_questions.xml"
+    },
+    {
+        "merged": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_example.xml",
+        "source": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\src\\main\\res\\menu\\menu_example.xml"
+    },
+    {
+        "merged": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_begin_here.xml",
+        "source": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\src\\main\\res\\menu\\menu_begin_here.xml"
+    },
+    {
+        "merged": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_create_content.xml",
+        "source": "D:\\WorkFolder\\ApplicationParentKidStress\\app\\src\\main\\res\\menu\\menu_create_content.xml"
+    }
+]

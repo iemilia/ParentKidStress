@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Emi/AndroidStudioProjects/HEROver1%20-%20Bluetooth_neclasificat/app/src/main/res/values-v13/styles.xml -->
+    <eat-comment/>
+    <style name="Widget.TabText" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textSize">9sp</item>
+    </style>
+</resources>

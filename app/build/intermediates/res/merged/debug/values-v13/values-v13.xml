@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.TabText" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textSize">9sp</item>
+    </style>
+</resources>
